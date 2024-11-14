@@ -10,6 +10,7 @@ import Questions from "@/components/Questions";
 import Review from "@/components/Review";
 import VideoTestimonials from "@/components/VideoTestimonials";
 import VideoTutorials from "@/components/VideoTutorials";
+import VideoTutorials2 from "@/components/VideoTutorials2";
 import Image from "next/image";
 
 export default function Home() {
@@ -28,7 +29,7 @@ export default function Home() {
       <Comparison/>
       <Banner3/>
       <PinPoint/>
-      <VideoTutorials/>
+      <VideoTutorials2/>
       <Questions/>
     </div>
   );

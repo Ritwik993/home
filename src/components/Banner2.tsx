@@ -2,10 +2,7 @@ import Image from "next/image"
 import GiftCard from "./GiftCard";
 
 const Banner2=()=>{
-    return(
-
-    
-        
+    return(      
       <div className="imageContainer relative w-[100vw] flex flex-col justify-center items-center mt-[100px] ">
       <Image src="/banner.png" alt="" width={1280} height={912} className="w-full md:h-[912px] h-[1102px]"/>
       <div className="absolute md:top-1/6 top-[100px] flex flex-col-reverse  md:flex-row justify-around items-center md:pl-[200px] md:pr-[100px] pl-[60px] pr-[50px] w-full">
