@@ -39,7 +39,19 @@ const Middle=()=>{
         <p className="text-[16px] text-[#595B97] md:text-center text-left">Investors are using BrandNav to quickly find and verify contact information for key executives and decision-makers and streamline their workflow.</p>
       </div>
       
+      
       </div>
+      <button className="text-white text-medium text-[16px] bg-[#0084FF] p-[10px] md:w-[175px] rounded-[5px] md:ml-[8px] shadow-xl mt-[30px] w-[90vw]">Grab free leads</button>
+            <div className="flex mt-[10px] md:flex-row flex-col items-center justify-center" >
+            <div className="flex gap-1 items-center md:mt-0 mt-[10px]">
+                <Image src="/FREE.png" width={18} height={18} alt="" className="w-[18px] h-[18px]"/>
+                <p className="text-[#595B97] text-[14px] font-medium">5,000 free leads included <span className="hidden md:inline-block pr-[5px]"> | </span></p>
+            </div>
+            <div className="flex gap-1 items-center md:mt-0 mt-[10px]">
+                <Image src="/box.png" width={16} height={12} alt="" className="w-[16px] h-[12px]"/>
+                <p className="text-[#595B97] text-[14px] font-medium">No credit card required </p>
+            </div>
+            </div>
       </div>
     )
 }

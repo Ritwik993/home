@@ -6,6 +6,7 @@ import Middle from "@/components/Middle";
 import PinPoint from "@/components/PinPoint";
 import Questions from "@/components/Questions";
 import Review from "@/components/Review";
+import VideoTestimonials from "@/components/VideoTestimonials";
 import Image from "next/image";
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
       <Banner/>
       <Banner2/>
       <Middle/>
+      <VideoTestimonials/>
       <PinPoint/>
       <Questions/>
     </div>

@@ -7,7 +7,7 @@ const GiftCard=()=>{
                 <Image src="/gift.png" alt="" width={80} height={73} className="w-[80px] h-[73px]" />
                 <p className="text-[#2F327D] font-medium text-[32px]">FREE</p>
                 <p className="font-semibold text-[50px] text-[#2F327D]">$0</p>
-                <button className="bg-[#0084FF] text-white rounded-[5px] px-[20px] py-[10px] md:mb-[30px] mb-[20px] md:w-auto w-full">Grab free leads</button>
+                <button className="bg-[#0084FF] text-white rounded-[5px] px-[20px] py-[10px] md:mb-[30px] mb-[20px] md:w-auto w-[80vw]">Grab free leads</button>
                 <div className="hidden md:flex gap-2 mt-2 text-[#8A8A8A] items-center md:mb-[30px] mb-[20px]">
                  <Image src="/uil_credit-card.png" className="w-[16px] h-[12px]" width={16} height={16} alt=""/>
                  <p>No credit card required | </p>
