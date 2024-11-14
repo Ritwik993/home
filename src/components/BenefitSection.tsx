@@ -10,7 +10,7 @@ const BenefitSection=()=>{
             <Card/>
             <Card2/>
             <Card3/>
-            <button className="text-white text-medium text-[16px] bg-[#0084FF] p-[10px] w-[175px] rounded-[5px] ml-[8px] shadow-xl mt-[30px]">Grab free leads</button>
+            <button className="text-white text-medium text-[16px] bg-[#0084FF] p-[10px] md:w-[175px] rounded-[5px] md:ml-[8px] shadow-xl mt-[30px] w-[90vw]">Grab free leads</button>
             <div className="flex mt-[10px] md:flex-row flex-col items-center justify-center" >
             <div className="flex gap-1 items-center md:mt-0 mt-[10px]">
                 <Image src="/FREE.png" width={18} height={18} alt="" className="w-[18px] h-[18px]"/>

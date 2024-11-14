@@ -1,6 +1,10 @@
 import Banner from "@/components/Banner";
+import Banner2 from "@/components/Banner2";
 import BenefitSection from "@/components/BenefitSection";
 import HeroSection from "@/components/HeroSection";
+import Middle from "@/components/Middle";
+import PinPoint from "@/components/PinPoint";
+import Questions from "@/components/Questions";
 import Review from "@/components/Review";
 import Image from "next/image";
 
@@ -14,6 +18,10 @@ export default function Home() {
       <BenefitSection/>
       <Review/>
       <Banner/>
+      <Banner2/>
+      <Middle/>
+      <PinPoint/>
+      <Questions/>
     </div>
   );
 }
