@@ -2,12 +2,12 @@ import Image from "next/image";
 
 const Banner=()=>{
     return(
-        <div className="mt-[100px] bg-gradient-to-r from-[#240036] to-[#003252] md:px-[50px] px-[30px] py-[30px] rounded-[8px] flex flex-col  items-center justify-center text-center ">
-            <h1 className="text-white font-bold md:text-[38px] text-[30px] leading-[60px] mt-[30px]">Ready to close more deals for your business?</h1>
+        <div className="mt-[100px] bg-gradient-to-r from-[#240036] to-[#003252] md:px-[50px] px-[30px] py-[30px] rounded-[8px] flex flex-col  items-center justify-center text-center md:w-auto w-[90vw]">
+            <h1 className="text-white font-bold md:text-[38px] text-[30px] md:leading-[60px] leading-[35px] mt-[30px]">Ready to close more deals for your business?</h1>
             <h2 className="text-[28px] text-[#B4B4B4] leading-[26px] mt-[30px]">Join the thousands of business that made the switch to BrandNav!</h2>
             <div>
-            <input type="text" placeholder="Enter your email" className=" py-[10px] px-[20px] bg-white md:w-[370px] w-[90vw] outline-none border border-[#9CB4EB] rounded-[8px] shadow-md mb-[20px] md:mb-0 mt-[30px]"/>
-            <button className="text-white text-medium text-[20px] bg-[#0084FF] p-[10px] md:w-[216px] rounded-[8px] md:ml-[8px] shadow-md w-[90vw]">Grab free leads</button>
+            <input type="text" placeholder="Enter your email" className=" py-[10px] px-[20px] bg-white md:w-[370px] w-[80vw] outline-none border border-[#9CB4EB] rounded-[8px] shadow-md mb-[20px] md:mb-0 mt-[30px]"/>
+            <button className="text-white text-medium text-[20px] bg-[#0084FF] p-[10px] md:w-[216px] rounded-[8px] md:ml-[8px] shadow-md w-[80vw]">Grab free leads</button>
             </div>
             
             <div className="flex mt-[10px] md:flex-row flex-col items-center justify-center " >
