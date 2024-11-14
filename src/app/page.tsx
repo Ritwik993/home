@@ -1,12 +1,15 @@
 import Banner from "@/components/Banner";
 import Banner2 from "@/components/Banner2";
+import Banner3 from "@/components/Banner3";
 import BenefitSection from "@/components/BenefitSection";
+import Comparison from "@/components/Comparison";
 import HeroSection from "@/components/HeroSection";
 import Middle from "@/components/Middle";
 import PinPoint from "@/components/PinPoint";
 import Questions from "@/components/Questions";
 import Review from "@/components/Review";
 import VideoTestimonials from "@/components/VideoTestimonials";
+import VideoTutorials from "@/components/VideoTutorials";
 import Image from "next/image";
 
 export default function Home() {
@@ -22,7 +25,10 @@ export default function Home() {
       <Banner2/>
       <Middle/>
       <VideoTestimonials/>
+      <Comparison/>
+      <Banner3/>
       <PinPoint/>
+      <VideoTutorials/>
       <Questions/>
     </div>
   );

@@ -3,6 +3,8 @@ import GiftCard from "./GiftCard";
 
 const Banner2=()=>{
     return(
+
+    
         
       <div className="imageContainer relative w-[100vw] flex flex-col justify-center items-center mt-[100px] ">
       <Image src="/banner.png" alt="" width={1280} height={912} className="w-full md:h-[912px] h-[1102px]"/>
