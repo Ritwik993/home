@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Review=()=>{
     return(
-        <div className="flex gap-[50px] bg-white p-[20px] md:pr-[80px] pr-[20px] shadow-md rounded-[12px] mt-[100px]">
+        <div className="flex gap-[50px] bg-white p-[20px] md:pr-[80px] pr-[20px] shadow-md rounded-[12px] mt-[100px] md:w-auto w-[90vw]">
             <Image src="/avatar.jpg" alt="" width={100} height={100} className="object-cover rounded-full w-[60px] h-[60px] md:w-[100px] md:h-[100px]"/>
             <div className="flex flex-col  gap-2">
                 <div className="flex justify-between">
