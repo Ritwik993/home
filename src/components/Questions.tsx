@@ -2,10 +2,10 @@ import Image from "next/image"
 
 const Questions=()=>{
     return(
-        <div className=" w-[100vw] flex  items-center justify-center flex-col py-[60px] text-center">
+        <div className=" w-[100vw]  flex  items-center justify-center flex-col py-[60px] text-center">
       <p className="text-[#2F327D] font-bold text-[36px]">Got a Question?<br/>
       Get Your Answers</p>
-      <div className=" bg-white md:w-1/2 w-3/4 mt-[50px] mb-[50px] rounded-lg border-none shadow-lg">
+      <div className=" bg-white md:w-1/2 w-3/4 mt-[50px] mb-[50px] rounded-lg border-none shadow-lg max-w-[1536px] m-auto">
     
        <div className="md:pl-[60px] pl-[20px] md:pr-[20px] pr-[5px] py-[20px] flex justify-between items-center  border-none  ">
         <p className="text-[#616161] md:text-[16px] text-[12px]  font-semibold">What is the purpose of email verifier?</p>

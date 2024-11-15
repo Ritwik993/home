@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Footer=()=>{
     return(
-       <div className="footer md:px-[100px] pl-[10px] mt-[100px]">
+       <div className="footer md:px-[100px] pl-[10px] mt-[100px] max-w-[1200px] m-auto">
          <div className="md:flex">
             <div className="md:mr-[40px] mb-[20px] flex-2">
                 <p className="font-semibold text-[18px] text-[#2F327D] mb-[30px]">BrandNav.io</p>
