@@ -23,9 +23,9 @@ export default function Home() {
       <BenefitSection/>
       <Review/>
       <Banner/>
-      <Banner2/>
       <Middle/>
       <VideoTestimonials/>
+      <Banner2/>
       <Comparison/>
       <Banner3/>
       <PinPoint/>

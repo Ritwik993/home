@@ -12,7 +12,7 @@ const HeroSection=()=>{
             <div>
             <p className="text-[#595B97] md:text-[18px] text-[16px] font-regular md:mb-[50px] mb-[30px]" >Discover untapped eCommerce brands with our high-quality unsaturated leads database</p>
             <input type="text" placeholder="Enter your email" className=" py-[10px] px-[20px] bg-white md:w-[370px] w-full outline-none border border-[#9CB4EB] rounded-[8px] shadow-md mb-[40px] md:mb-0"/>
-            <button className="text-white text-medium text-[20px] bg-[#0084FF] p-[10px] md:w-[216px] w-full rounded-[8px] md:ml-[8px] shadow-xl">Grab free leads</button>
+            <button className="text-white text-medium text-[20px] bg-[#0084FF] p-[10px] md:w-[216px] w-[90vw] rounded-[8px] md:ml-[8px] shadow-xl">Grab free leads</button>
             </div>
             
             <div className="flex mt-[20px] md:flex-row flex-col items-center justify-center " >
