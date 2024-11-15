@@ -4,7 +4,7 @@ const Banner3=()=>{
     return(
         <div className="bg-gradient-to-r from-[#000645] to-[#1C2268] md:w-[80vw] w-[90vw]  flex flex-col justify-center items-center rounded-[15px] mt-[100px] text-cneter">
             <h2 className="text-white mt-[20px] font-bold md:text-[36px] text-[28px] text-center">Watch BrandNav in action</h2>
-            <p className="text-white text-[16px] font-medium md:w-[662px] mt-[20px] text-center w-[90vw]">Leverage 30+ advanced filters to create eCommerce lead lists and streamline your sales and marketing efforts.</p>
+            <p className="text-white text-[16px] font-medium md:w-[662px] mt-[20px] text-center w-[80vw]">Leverage 30+ advanced filters to create eCommerce lead lists and streamline your sales and marketing efforts.</p>
             <Image src="/video2.svg" alt="" width={917} height={530} className="object-cover mt-[20px]"/>
             
             
