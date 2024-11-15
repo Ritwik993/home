@@ -6,7 +6,7 @@ const PinPoint=()=>{
       <div className="flex flex-col items-center justify-center ">
           <div className="md:text-center text-left mt-[100px] ">
         <p className="font-bold md:text-[36px] text-[20px] text-[#2F327D] md:text-center text-left">Pinpoint your ideal customer with<br/> relevant data attributes</p>
-        <p className="text-[#007DF2] font-semibold md:text-[24px] text-[20px] mt-[40px] mb-[20px]">Screener attributes</p>
+        <p className="text-[#007DF2] font-semibold md:text-[24px] text-[20px] mt-[40px] text-center mb-[20px]">Screener attributes</p>
         </div>
         <div className="hidden md:flex gap-[110px] justify-center  px-[200px] w-[100vw] ">
           <div className="text-center flex flex-col items-center  gap-y-[10px] ">
