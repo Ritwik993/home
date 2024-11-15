@@ -24,6 +24,13 @@ body, html {
   padding-right:50px;
 }
 
+.containerbox1 {
+  width: 1536px;
+  margin: auto;
+  min-height: 100vh;
+
+}
+
 @media (max-width: 1536px) {
   .containerbox {
     width: 1366px;

@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Review2 from "./Review2";
 
 const PinPoint=()=>{
     return(
@@ -74,6 +75,7 @@ const PinPoint=()=>{
             <p className="text-[20px] font-semibold text-[#2F327D]">and 20+ more </p>
           </div>
           </div>
+          <Review2/>
       </div>
     )
 }
