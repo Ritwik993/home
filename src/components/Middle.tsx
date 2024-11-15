@@ -3,7 +3,7 @@ import Image from "next/image"
 const Middle=()=>{
     return(
         
-      <div className="flex flex-col md:text-center text-left items-center justify-center md:mt-[200px] mt-[100px] mb-[100px] md:px-0 px-[10px]">
+      <div className="flex flex-col md:text-center text-left items-center justify-center md:mt-[200px] mt-[100px] mb-[100px] md:px-0 px-[10px] md:w-auto w-[80vw]">
       <p className="text-[#2F327D] font-bold text-[36px]">Who is using BrandNav?</p>
       <p className="text-[16px] text-[#595B97] mt-[15px] mb-[20px]">BrandNav has become irreplaceable tool for businesses</p>
       
